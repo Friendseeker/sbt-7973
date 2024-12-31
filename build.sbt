@@ -2,7 +2,7 @@ ThisBuild / version := "0.1.0-SNAPSHOT"
 
 ThisBuild / scalaVersion := "3.3.4"
 
-ThisBuild / usePipelining := true
+ThisBuild / logLevel := Level.Debug
 
 lazy val A = (project in file("A"))
   .settings(
